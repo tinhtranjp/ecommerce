@@ -1,8 +1,11 @@
-import Home from '@/pages/Home/home'
-import Product from '@/pages/Product/product'
+import NotFound from '@/pages/NotFound'
+import Home from '@/pages/Home'
+import Grammar from '@/pages/Grammar'
+
 const publicRoutes = [
   { path: '/', component: Home },
-  { path: '/product', component: Product, layout: null },
+  { path: '/grammar', component: Grammar },
+  { path: '*', component: NotFound },
 ]
 
 // const privateRoutes = []

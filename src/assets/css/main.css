@@ -1,0 +1,8 @@
+.headerBorderBottom::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.5px;
+  background-color: #666;
+  opacity: 0.3;
+}

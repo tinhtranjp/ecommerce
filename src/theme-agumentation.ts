@@ -8,11 +8,11 @@ declare module '@mui/material/styles' {
     [key: string]: any
   }
 
-  interface PaletteColorOptions {
-    [key: string]: any
-  }
+  // interface PaletteColorOptions {
+  //   [key: string]: any
+  // }
 
-  interface ColorSystemOptions {
-    [key: string]: any
-  }
+  // interface ColorSystemOptions {
+  //   [key: string]: any
+  // }
 }
